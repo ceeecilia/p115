@@ -1,0 +1,47 @@
+body {
+    background-color:black;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.bluebtn {
+    background-color:#4c3091;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+.bluebtn2 {
+    background-color:#4b7b9d;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+.bluebtn:hover {
+    background-color:#82d1c5;
+    color:white;
+}
+
+.bluebtn2:hover {
+    background-color:#4b7b9d;
+    border:none;
+    border-radius: 5px;
+    color:white;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 1px 1px 38px #82d1c5; left:400;}
+    25% {box-shadow: 1px 1px 38px #4c3091; left:500;}
+    50% {box-shadow: 1px 1px 38px #82d1c5; left:600;}
+    75% {box-shadow: 1px 1px 38px #4c3091; left:500;}
+    100% {box-shadow: 1px 1px 38px #82d1c5; left:400;}
+}
